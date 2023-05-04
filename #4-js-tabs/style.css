@@ -1,0 +1,17 @@
+.tab-title{
+    cursor: pointer;
+}
+.tab-title:hover{
+    background-color: rgba(211, 208, 208, 0.3);
+}
+.title-content .active{
+    background-color: rgba(211, 208, 208, 0.3);
+}
+.tab-content{
+    display: none;
+    opacity: 0;
+}
+.tab-content.active{
+    opacity: 1;
+    display: block;
+}
