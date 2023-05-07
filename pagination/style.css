@@ -1,0 +1,48 @@
+:root{
+    --height: 450px;
+}
+*{
+    transition: all 0.3s linear;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.item{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #000;
+    margin: 10px;
+    height: var(--height);
+}
+.item:hover{
+    background-color: darkgray;
+}
+.item .cont-image img{
+    width: 100%;
+    height: 250px;
+    border: 3px solid rgb(121, 122, 123);
+    padding: 3px;
+}
+.pagination{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.pagination .number{
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px 15px;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-weight: bold;
+}
+.pagination .number:hover{
+    background-color: rgb(73, 86, 186);
+    color: #fff;
+}
+.pagination .active{
+    background-color: rgb(78, 78, 181);
+    color: #fff;
+}
