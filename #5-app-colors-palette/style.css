@@ -9,12 +9,12 @@
     width: 100px;
     height: 100px;
     margin: 10px;
-    border: 1px solid #1783d0;
+    border: 10px solid #1783d0;
     border-radius: 3px;
     margin: auto;
     margin-bottom: 10px;
     cursor: pointer;
 }
 .color-container .selected-color{
-    border: 1px solid #000;
+    border: 10px solid #000;
 }
