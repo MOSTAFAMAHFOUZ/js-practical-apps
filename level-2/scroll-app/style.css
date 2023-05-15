@@ -1,0 +1,33 @@
+body{
+    height: 5000px;
+}
+.scroll-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    height: 5px;
+    width: 0;
+    background-color: blue;
+}
+.section{
+    height: 700px;
+}
+.section h2{
+    border: 1px solid #000;
+}
+#home{
+    margin-top: 250px;
+}
+
+
+.scroll-top{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: cornflowerblue;
+    cursor: pointer;
+    display: none;
+}
