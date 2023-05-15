@@ -1,0 +1,17 @@
+.user-content {
+    background-color: #eaebed;
+    border-radius: 3px;
+}
+
+.cont-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(112, 113, 113);
+}
+
+#user-name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: deepskyblue;
+}
