@@ -1,0 +1,13 @@
+.number-container{
+    height: 300px;
+    border: 1px solid #000;
+    text-align: center;
+    position: relative;
+}
+.number-container h2{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
